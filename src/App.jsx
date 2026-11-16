@@ -1,5 +1,5 @@
-
 import s from'./App.module.css'
+import {Menu} from './components/menu'
 
 function App() {
   
@@ -8,12 +8,7 @@ function App() {
   
     <>
     <div className={s.wrapHome}>
-      <nav className={s.menu}>
-        <a href="">primeiro</a>
-        <a href="">segundo</a>
-        <a href="">terceiro</a>
-        <a href="">quarto</a>
-      </nav>
+      <Menu />
     </div>
     </>
      

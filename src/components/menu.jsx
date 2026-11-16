@@ -1,14 +1,13 @@
-import s from './App.module.css'
+import s from './menu.module.css'
 
 export const Menu = () => {
     return(
-
-         <nav className={s.menu}>
-               <a href="">Menu</a>
-               <a href=""></a>
-               <a href="">terceiro</a>
-               <a href="">quarto</a>
-               </nav> 
+        <nav className={s.menu}>
+           <a href="">Home</a>
+           <a href="">Instituição</a>
+           <a href="">Produtos</a>
+           <a href="">Contato</a>
+        </nav> 
     )
 }
 
